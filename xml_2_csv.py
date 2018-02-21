@@ -3,7 +3,7 @@ import glob
 import pandas as pd
 import xml.etree.ElementTree as ET
 train_percentage= 0.8 
-image_path =('train/bag/labels')
+image_path =('data/labelled/labels')
 #image_path = (['train/bag/labels','train/phone/labels','train/wallet/labels','train/portatil/labels'])
 xml_list= []
 #for dir_lab in xrange(1,len(image_path)):
